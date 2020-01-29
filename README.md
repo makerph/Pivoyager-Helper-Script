@@ -16,7 +16,7 @@ Step 2 Enable systemd timer
  
  Need to make systemd aware of them by issuing
   #sudo systemctl daemon-reload
-  
+    
  After that you need to enable the timer unit:
   #sudo systemctl enable pwntimecheck.timer
 
