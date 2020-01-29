@@ -1,0 +1,9 @@
+[Unit]
+Description=Run pwntimecheck every 15 mins starting 5min after system boot
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=15min
+
+[Install]
+WantedBy=timers.target
