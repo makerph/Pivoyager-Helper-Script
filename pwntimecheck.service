@@ -3,4 +3,4 @@ Description=pwntime check
 Type=oneshot
 
 [Service]
-ExecStart=/home/pi/pwntimecheck.sh
+ExecStart=/home/pi/scripts/pwntimecheck.sh
