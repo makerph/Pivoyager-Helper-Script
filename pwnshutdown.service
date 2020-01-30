@@ -1,0 +1,6 @@
+[Unit]
+Description=pwnshutdown service 
+
+[Service]
+Type=oneshot
+ExecStart=/home/pi/scripts/pwnshutdown.sh
