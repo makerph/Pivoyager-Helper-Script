@@ -7,6 +7,6 @@ PIVOYAGER=/usr/local/bin/pivoyager
 #  - Program full power cut in 25 seconds.
 #  - Shutdown rPi
 $PIVOYAGER enable power-wakeup
-$PIVOYAGER alarm *-21-00-00
+$PIVOYAGER alarm *-23-00-00
 $PIVOYAGER watchdog 25
 sudo shutdown now
