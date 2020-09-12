@@ -5,9 +5,6 @@ Description=arc passwod manager
 Type=simple
 ExecStart=/home/pi/scripts/arc.sh
 Restart=always
-RestartSec=30
-StandardOutput=null
-StandardError=null
 
 [Install]
 WantedBy=multi-user.target
